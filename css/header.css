@@ -1,5 +1,3 @@
-
-
 nav {
     background-color: #153e52;
     font-family: open sans;
@@ -38,7 +36,7 @@ header {
     background-size: cover;
     height: 102vh;
     text-align: center;
-    
+
 }
 
 header>div>h1 {
@@ -59,32 +57,78 @@ header>div>a {
     top: 60px;
     text-decoration: none;
     color: white;
-    background-color:  #14bf98;
+    background-color: #14bf98;
     padding: 18px 32px;
     font-family: open sans;
     font-weight: 600;
 }
 
-header>div{
+header>div {
     position: relative;
     top: 250px;
 }
 
-div.div{
-
+div.div {
+    font-family: open sans;
+    display: flex;
+    margin-top: 200px;
 }
 
-div.div>h1{
+div.childDiv>h1 {
     font-family: Montserrat;
     color: #113448;
-    margin-right: 950px;
-}
-div.div>p.intro{
-    color: #14bf98;
-}
-div.div>p.p{
-    color: #787976;
-}
-div.div>p.author{}
-div.div>img{}
+    margin-right: 75px;
+    margin-left: 150px;
+    margin-bottom: 0px;
 
+}
+
+div.childDiv>p.intro {
+    color: #14bf98;
+    margin-left: 150px;
+    margin-bottom: 0px;
+
+}
+
+div.childDiv>p.p {
+    margin-right: 75px;
+    margin-left: 150px;
+    line-height: 30px;
+    margin-bottom: 0px;
+    font-weight: 200;
+}
+
+div.childDiv>p.author {
+    margin-left: 150px;
+    font-family: open sans;
+    font-weight: 600;
+}
+
+div.div>img {
+    margin-right: 150px;
+    height: 500px;
+    width: 700px;
+    border-radius: 4px;
+    opacity: 0.9;
+    margin-top: 0px;
+}
+
+div.div2>div>h2{
+    font-family: Montserrat;
+    margin-left: 150px;
+}
+div.div2{
+    margin-top: 150px;
+    display: flex;
+}
+div.div2>div>p{
+    margin-left: 150px;
+    font-family: open sans;
+    font-weight: 100;
+    margin-right: 20px;
+    line-height: 28px;
+}
+div.div2>div>i{
+    font-size: 32px;
+    margin-left: 175px;
+}
